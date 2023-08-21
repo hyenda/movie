@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" viewBox="0 0 32 37">
+  <g id="dash-a" transform="translate(-226 -58)">
+    <g id="Rectangle_27" data-name="Rectangle 27" transform="translate(226 58)" fill="#f3f9fe" stroke="#707070" stroke-width="0.3">
+      <path d="M3,0H15a0,0,0,0,1,0,0V25a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V3A3,3,0,0,1,3,0Z" stroke="none"/>
+      <path d="M3,.15H14.7a.15.15,0,0,1,.15.15V24.7a.15.15,0,0,1-.15.15H.3a.15.15,0,0,1-.15-.15V3A2.85,2.85,0,0,1,3,.15Z" fill="none"/>
+    </g>
+    <g id="Rectangle_29" data-name="Rectangle 29" transform="translate(243 58)" fill="#f3f9fe" stroke="#707070" stroke-width="0.3">
+      <path d="M0,0H12a3,3,0,0,1,3,3V9a0,0,0,0,1,0,0H0A0,0,0,0,1,0,9V0A0,0,0,0,1,0,0Z" stroke="none"/>
+      <path d="M.3.15H12A2.85,2.85,0,0,1,14.85,3V8.7a.15.15,0,0,1-.15.15H.3A.15.15,0,0,1,.15,8.7V.3A.15.15,0,0,1,.3.15Z" fill="none"/>
+    </g>
+    <g id="Rectangle_28" data-name="Rectangle 28" transform="translate(243 69)" fill="#f3f9fe" stroke="#707070" stroke-width="0.3">
+      <path d="M0,0H15a0,0,0,0,1,0,0V23a3,3,0,0,1-3,3H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" stroke="none"/>
+      <path d="M.3.15H14.7a.15.15,0,0,1,.15.15V23A2.85,2.85,0,0,1,12,25.85H.3a.15.15,0,0,1-.15-.15V.3A.15.15,0,0,1,.3.15Z" fill="none"/>
+    </g>
+    <g id="Rectangle_30" data-name="Rectangle 30" transform="translate(226 85)" fill="#f3f9fe" stroke="#707070" stroke-width="0.3">
+      <path d="M0,0H15a0,0,0,0,1,0,0V10a0,0,0,0,1,0,0H3A3,3,0,0,1,0,7V0A0,0,0,0,1,0,0Z" stroke="none"/>
+      <path d="M.3.15H14.7a.15.15,0,0,1,.15.15V9.7a.15.15,0,0,1-.15.15H3A2.85,2.85,0,0,1,.15,7V.3A.15.15,0,0,1,.3.15Z" fill="none"/>
+    </g>
+  </g>
+</svg>

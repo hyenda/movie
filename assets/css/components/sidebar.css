@@ -1,0 +1,140 @@
+/* aside */
+aside {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 19em;
+  height: 100vh;
+  background: linear-gradient(
+    129deg,
+    rgba(227, 241, 255, 1) 0%,
+    rgba(182, 201, 220, 1) 50%,
+    rgb(70, 108, 146) 100%
+  );
+  color: var(--primary2);
+}
+
+aside .profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 6em 4em 0 4em;
+  gap: 15px;
+}
+
+aside .profile img {
+  width: 8em;
+  border-radius: 100%;
+  border: 2px solid var(--primary4);
+  cursor: not-allowed;
+}
+
+aside .profile img:hover {
+  opacity: 65%;
+  transition: 300ms ease-out;
+}
+
+aside .profile span {
+  font-weight: 600;
+  text-align: center;
+}
+
+aside .profile a {
+  margin-top: -10px;
+  font-size: 12px;
+  text-decoration: none;
+  color: var(--primary2);
+  opacity: 75%;
+}
+
+aside .profile a:hover {
+  opacity: 100%;
+  transition: 250ms ease-out;
+}
+
+aside .menu-dashboard {
+  margin-top: 2em;
+}
+
+aside .menu-dashboard div,
+aside .logout {
+  padding: 0 4em;
+  margin-top: 0.8em;
+  font-size: 18px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 2em;
+  padding: 0.8em 0.8em 0.8em 2em;
+}
+
+aside .menu-dashboard .selected-menu {
+  background-color: #1e426769;
+}
+
+aside .menu-dashboard a .selected-menu {
+  color: var(--primary4);
+}
+
+aside .menu-dashboard a {
+  color: var(--primary2);
+  text-decoration: none;
+}
+
+aside .menu-dashboard #menu-link a:hover {
+  opacity: 65%;
+  transition: 250ms ease-out;
+}
+
+aside .logout {
+  margin-bottom: 2em;
+}
+
+aside .logout a:hover {
+  opacity: 65%;
+}
+
+aside .logout {
+  color: var(--primary2);
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+}
+aside .logout:hover {
+  opacity: 65%;
+}
+/* /aside */
+
+nav .menu-user {
+  display: none;
+  position: absolute;
+  right: 3em;
+  top: 4em;
+  padding: 8px 0;
+  background-color: var(--primary2);
+  border-radius: 8px 0 8px 8px;
+}
+
+nav .menu-user div {
+  padding: 11px 4em 11px 2em;
+  color: var(--primary4);
+  cursor: pointer;
+}
+
+nav .menu-user div a {
+  text-decoration: none;
+  color: var(--primary4);
+}
+
+nav .menu-user div:hover {
+  opacity: 65%;
+  transition: 250ms ease-out;
+}
+
+nav .menu-user hr {
+  padding: 0 1em 0 1em;
+  margin-left: 13px;
+  margin-right: 16px;
+  opacity: 25%;
+}

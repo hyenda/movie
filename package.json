@@ -1,0 +1,30 @@
+{
+  "name": "lazy_sun",
+  "version": "1.0.0",
+  "description": "web video",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:open": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oendnsk675/project-uas-web.git"
+  },
+  "keywords": [
+    "web",
+    "video"
+  ],
+  "author": "sayidina ahmadal qososyi, anisa aedina, galuh zakiyatun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oendnsk675/project-uas-web/issues"
+  },
+  "homepage": "https://github.com/oendnsk675/project-uas-web#readme",
+  "devDependencies": {
+    "cypress": "^9.4.1"
+  }
+}

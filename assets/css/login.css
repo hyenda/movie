@@ -1,0 +1,93 @@
+:root {
+  --primary1: #0b1117;
+  --primary2: #507aff;
+  --primary3: #454545;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  font-family: "Poppins", sans-serif;
+  /* background: linear-gradient(167deg, rgba(239,248,255,1) 0%, rgba(239,248,255,1) 37%, rgba(200,230,254,1) 72%, rgba(168,210,242,1) 100%), url('../image/bg.jpg'); */
+  background: linear-gradient(
+      167deg,
+      rgb(37, 37, 37) 0%,
+      rgba(45, 45, 45, 0.9) 37%,
+      rgba(53, 53, 53, 0.7) 72%,
+      rgba(42, 42, 42, 0.1) 100%
+    ),
+    url("../image/bg.jpg") center center no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.container {
+  padding: 1.5em 10em;
+}
+
+.container-form {
+  margin: 19em 0 0 0;
+  color: whitesmoke;
+  height: 16em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container-form h5 {
+  margin: 0;
+  font-size: 20px;
+}
+
+.container-form h1 {
+  margin: 8px 0 8px 0;
+  font-size: 50px;
+}
+
+.container-form span:nth-child(4) a {
+  text-decoration: none;
+  color: #569ce4;
+  font-weight: 600;
+}
+
+.container-form a:nth-child(2) {
+  width: 13em;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.btn-google {
+  cursor: pointer;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  padding: 10px 2em;
+  border-radius: 10px;
+  gap: 10px;
+  border: 1px solid var(--primary2);
+  width: 15em;
+  height: 3em;
+  position: relative;
+  overflow: hidden;
+  font-family: "Poppins", sans-serif;
+}
+
+.btn-google:hover {
+  opacity: 65%;
+  box-shadow: 10px 10px 79px 0px rgba(204, 204, 204, 0.75);
+  transition: 200ms ease-out;
+}
+
+.btn-google span:last-child {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  justify-content: center;
+  border: 1px solid var(--primary2);
+  right: 0;
+  height: 100%;
+}

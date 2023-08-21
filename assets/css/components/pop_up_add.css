@@ -1,0 +1,325 @@
+/* pop up add video */
+
+.container-pop-up {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  left: 0%;
+  top: 11%;
+  z-index: 20;
+}
+
+.pop-up-add {
+  width: 83%;
+  height: 83%;
+  background-color: var(--primary4);
+  border-radius: 15px;
+}
+
+.pop-up-add form .container-form {
+  margin: 2em 2.8em 0 2.8em;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* left */
+
+.pop-up-add form .container-form .left {
+  width: 50%;
+}
+
+.pop-up-add form .container-form .left .video {
+  border: 2px solid rgba(255, 255, 255, 0.25);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 353px;
+  overflow: hidden;
+  position: relative;
+}
+
+.pop-up-add .fileUploadVideoForm {
+  margin-top: -1rem;
+}
+.pop-up-add form .container-form .left .thumbnail {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid rgba(255, 255, 255, 0.25);
+  border-radius: 10px;
+  padding: 1em;
+  width: 110px;
+  margin-top: 2em;
+}
+
+.container-thumbnail {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 1em;
+}
+
+.container-thumbnail .preview-poster {
+  width: 96px;
+  height: 96px;
+  margin-top: 2em;
+  border: 2px solid rgba(255, 255, 255, 0.25);
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #eff8ff66;
+}
+
+.container-thumbnail .preview {
+  width: 142px;
+  height: 96px;
+  margin-top: 2em;
+  border: 2px solid rgba(255, 255, 255, 0.25);
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #eff8ff66;
+}
+
+.container-thumbnail .preview img {
+  width: 142px;
+  height: 96px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.thumbnail p {
+  margin: 0;
+  font-size: 11px;
+  color: #ffffff61;
+}
+
+.pop-up-add form .container-form .left .video video {
+  display: none;
+}
+
+.pop-up-add form .container-form .left .video h5 {
+  margin: 8px;
+  color: #eff8ff73;
+  position: absolute;
+  bottom: 10px;
+}
+
+.pop-up-add form .container-form .left .video input,
+.pop-up-add form .container-form .left .thumbnail input {
+  display: none;
+}
+
+.pop-up-add form .container-form .left .video label {
+  position: absolute;
+}
+
+.pop-up-add form .container-form .left .video label,
+.pop-up-add form .container-form .left .thumbnail label {
+  cursor: pointer;
+}
+
+.pop-up-add form .container-form .left .video label svg,
+.pop-up-add form .container-form .left .thumbnail label svg {
+  opacity: 50%;
+}
+
+.pop-up-add form .container-form .left .video label svg:hover,
+.pop-up-add form .container-form .left .thumbnail label svg:hover {
+  opacity: 85%;
+  transition: opacity 250ms ease-in-out;
+}
+
+.pop-up-add form .container-form .left .video label svg:first-child {
+  display: none;
+}
+
+.confirmation {
+  display: flex;
+  align-items: center;
+}
+
+.confirmation .progress {
+  position: relative;
+  width: 262px;
+  height: 37px;
+  border: 1px solid var(--primary4);
+  border-radius: 10px;
+  margin-top: 2.2em;
+  margin-left: 40px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--primary4);
+}
+
+.confirmation .hideProgress {
+  opacity: 0;
+  transition: 250ms ease-out;
+}
+
+.confirmation .progress span {
+  position: relative;
+  z-index: 20;
+}
+
+.confirmation .progress .progress-bar {
+  position: absolute;
+  width: 0%;
+  height: 100%;
+  left: 0;
+  background-color: #6c896e;
+}
+
+.btn-submit {
+  background-color: var(--primary2);
+  border-radius: 10px;
+  padding: 10px 30px;
+  margin-top: 2.2em;
+  border: 2px solid #ffffff59;
+  color: white;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.btn-close {
+  background-color: var(--primary4);
+  border-radius: 10px;
+  padding: 10px 30px;
+  margin-top: 2.2em;
+  color: var(--primary2);
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 600;
+  border: 2px solid #ffffff59;
+  margin-left: 10px;
+}
+
+.btn-submit:hover {
+  background-color: var(--primary4);
+  color: var(--primary2);
+  transition: background-color 200ms ease-in;
+}
+.btn-close:hover {
+  opacity: 65%;
+  transition: opacity 200ms ease-in;
+}
+
+/* left */
+
+/* right */
+.pop-up-add .right {
+  width: 45%;
+  margin-top: -4.3rem;
+}
+
+.d-none {
+  display: none;
+}
+
+.pop-up-add input {
+  width: 100%;
+  height: 39px;
+  border-radius: 7px;
+  outline-color: rgb(182 201 220);
+  border: 1px solid whitesmoke;
+  font-size: 18px;
+  background-color: transparent;
+  color: white;
+  padding-left: 15px;
+  margin-bottom: 10px;
+}
+
+#editor {
+  border-radius: 10px;
+  border: 2px solid #ffffff4a;
+  width: 103%;
+  color: white;
+  margin-top: 1em;
+}
+
+/* right */
+
+.invisible-pop-up {
+  display: none;
+}
+
+/* .select2-search { background-color: #00f; } */
+/* /pop up add video */
+
+.checkmark {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  display: block;
+  stroke-width: 2;
+  stroke: #4bb71b;
+  stroke-miterlimit: 10;
+  box-shadow: inset 0px 0px 0px #4bb71b;
+  animation: fill 0.4s ease-in-out 0.4s forwards,
+    scale 0.3s ease-in-out 0.9s both;
+  position: relative;
+  top: 5px;
+  right: 5px;
+  margin: 0 auto;
+}
+.checkmark__circle {
+  stroke-dasharray: 166;
+  stroke-dashoffset: 166;
+  stroke-width: 2;
+  stroke-miterlimit: 10;
+  stroke: #4bb71b;
+  fill: #fff;
+  animation: stroke 0.6s cubic-bezier(0.65, 0, 0.45, 1) forwards;
+}
+
+.checkmark__check {
+  transform-origin: 50% 50%;
+  stroke-dasharray: 48;
+  stroke-dashoffset: 48;
+  animation: stroke 0.3s cubic-bezier(0.65, 0, 0.45, 1) 0.8s forwards;
+}
+
+@keyframes stroke {
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes scale {
+  0%,
+  100% {
+    transform: none;
+  }
+
+  50% {
+    transform: scale3d(1.1, 1.1, 1);
+  }
+}
+
+@keyframes fill {
+  100% {
+    box-shadow: inset 0px 0px 0px 30px #4bb71b;
+  }
+}
+
+.imdb-form {
+  display: flex;
+  justify-content: start;
+}
+
+.imdb-form .container-form {
+  width: 45.5%;
+  padding: 2rem 3rem 0;
+}

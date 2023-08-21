@@ -1,0 +1,130 @@
+:root {
+  --primary1: #0b1117;
+  --primary2: #507aff;
+  --primary3: #454545;
+  --primary4: #2f3b61;
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: var(--primary1);
+  color: whitesmoke;
+  position: relative;
+  overflow: hidden;
+}
+
+.container {
+  padding: 0 1em 1em 0;
+  display: flex;
+}
+
+/* content setting */
+.content-information {
+  display: flex;
+  gap: 7rem;
+}
+
+.content-setting {
+  width: 100%;
+}
+
+.content-setting h2 {
+  color: whitesmoke;
+  margin-bottom: 4.5em;
+}
+
+.left-information .data-row {
+  display: flex;
+  gap: 1em;
+}
+
+.left-information .data-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.left-information .data-col input {
+  font-weight: 600;
+  color: rgb(63 57 57 / 82%);
+  font-size: 16px;
+  width: 220px;
+  height: 31px;
+  border-radius: 7px;
+  padding-left: 10px;
+  outline: none;
+  border: 2px solid var(--primary1);
+  background-color: whitesmoke;
+}
+
+.left-information h3 {
+  color: whitesmoke;
+  opacity: 75%;
+}
+
+.left-information hr {
+  width: 100%;
+  margin: 3.2em 0;
+}
+
+.btn-submit-setting {
+  padding: 0.8em 2em;
+  background-color: var(--primary2);
+  border: 0;
+  border-radius: 10px;
+  font-size: 15px;
+  color: var(--primary4);
+  margin-top: 2em;
+  font-family: "Poppins";
+  cursor: pointer;
+}
+
+.btn-submit-setting:hover {
+  opacity: 70%;
+  transition: 250ms ease-out;
+}
+
+.right-information {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2em;
+  margin-left: -5em;
+}
+
+.right-information .container-image-user {
+  border-radius: 100%;
+  width: 220px;
+  height: 220px;
+  overflow: hidden;
+  border: 4px solid #b3c6d8;
+}
+
+.right-information img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.right-information .btn-up-image {
+  cursor: pointer;
+  width: 35%;
+  color: var(--primary4);
+  text-align: center;
+  padding: 10px;
+  background-color: var(--primary2);
+  border-radius: 10px;
+  margin-top: 2em;
+}
+
+.right-information .btn-up-image:hover {
+  opacity: 65%;
+  transition: 250ms ease-out;
+}
+
+.right-information input {
+  display: none;
+}
+
+/* /content setting */

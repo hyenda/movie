@@ -1,0 +1,32 @@
+.pagination {
+    display: flex;
+    gap: 5px;
+    margin-top: 2em;
+}
+
+.pagination a {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--primary2);
+    text-decoration: none;
+}
+
+.pagination a:hover {
+    opacity: 65%;
+    transition: 250ms ease-out;
+}
+
+.pagination a div {
+    width: 2em;
+    height: 2em;
+    border: 1px solid var(--primary2);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagination .pagination-selected {
+    background-color: var(--primary2);
+    color: var(--primary4);
+}

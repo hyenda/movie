@@ -1,0 +1,38 @@
+.sub-menu .menu-user {
+  display: none;
+  position: absolute;
+  right: 3em;
+  top: 4em;
+  padding: 8px 0;
+  background-color: var(--primary3);
+  border-radius: 8px 0 8px 8px;
+}
+
+.sub-menu .menu-user div {
+  padding: 11px 4em 11px 2em;
+  color: whitesmoke;
+  cursor: pointer;
+}
+
+.sub-menu .menu-user div a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.sub-menu .menu-user div:hover {
+  opacity: 65%;
+  transition: 250ms ease-out;
+}
+
+.sub-menu .menu-user hr {
+  padding: 0 1em 0 1em;
+  margin-left: 13px;
+  margin-right: 16px;
+  opacity: 25%;
+}
+
+.poster-sm {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

@@ -1,0 +1,164 @@
+/* footer */
+footer {
+    margin-top: 9em;
+    padding: 62px 79px 10px 79px;
+    background: linear-gradient(90deg, rgba(201,215,226,1) 0%, rgba(110,114,180,1) 56%, rgb(49, 49, 168) 100%, rgba(0,212,255,1) 100%);
+}
+
+.contentFooter {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logoFooter {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 2em;
+}
+
+.logoFooter h1 {
+    color: var(--primary2);
+}
+
+
+.content1Footer a{
+    text-decoration: none;
+    color: var(--primary2);
+    padding: 10px 5px;
+    border: 2px solid var(--primary2);
+    border-radius: 10px;
+}
+
+.content1Footer a:hover {
+    background-color: var(--primary2);
+    color: var(--primary4);
+    transition: background-color 250ms linear;
+}
+
+.content3Footer {
+    margin-top: 20px;
+}
+
+.content3Footer h1 {
+    color: var(--primary4);
+    margin: 0;
+
+}
+.iconCont {
+    display: flex;
+    gap: 20px;
+    margin-top: 43px;
+}
+
+.git {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1.5px solid black;
+    border-radius: 100%;
+    padding: 2px 2px;
+    height: 35px;
+    width: 35px;
+}
+
+a .git:hover {
+    background-color: var(--primary4);
+    transition: background-color 250ms linear;
+}
+
+.fb {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1.5px solid black;
+    border-radius: 100%;
+    padding: 2px 2px;
+    height: 35px;
+    width: 35px;
+}
+
+.fb img {
+    height: 30px;
+    width: 30px;
+}
+
+a .fb:hover {
+    background-color: var(--primary4);
+    transition: background-color 250ms linear;
+}
+
+.wa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1.5px solid black;
+    border-radius: 100%;
+    padding: 2px 2px;
+    height: 35px;
+    width: 35px;
+}
+
+.wa img {
+    height: 30px;
+    width: 30px;
+}
+
+a .wa:hover {
+    background-color: var(--primary4);
+    transition: background-color 250ms linear;
+}
+
+.close {
+    display: flex;
+    justify-content: center;
+    
+}
+
+footer hr {
+    margin-top: 3em;
+    border-color: var(--primary2);
+    opacity: 15%;
+}
+
+.close span {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    animation: flicker-3 3s linear infinite both;
+}
+
+@keyframes flicker-3{0%,100%{opacity:1}32.98%{opacity:1}33%{opacity:0}34%{opacity:0}34.02%{opacity:1}34.98%{opacity:1}35%{opacity:0}35.9%{opacity:0}35.92%{opacity:1}38.98%{opacity:1}39%{opacity:0}39.8%{opacity:0}39.82%{opacity:1}83.98%{opacity:1}84%{opacity:0}84.9%{opacity:0}84.92%{opacity:1}}
+
+.close span img {
+    width: 15px;
+    height: 15px;
+}
+
+.right {
+    display: flex;
+    gap: 13em;
+}
+
+.content2Footer h1 {
+    color: var(--primary4);
+}
+
+.links ul a {
+    text-decoration: none;
+    color: var(--primary4);
+}
+
+.links ul li {
+    margin-top: 10px;
+}
+
+.links ul li:hover {
+    opacity: 55%;
+}
+
+.links ul {
+    list-style-type: none;
+    padding: 0;
+    opacity: 80%;
+}
+/* /footer */
